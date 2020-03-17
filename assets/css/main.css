@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+::selection {
+	background: #FF7F3B;
+	color: white;
+}
+
+::moz-selection {
+	background: #FF7F3B;
+	color: white;
+}
+
 /* Basic */
 
 	html {
