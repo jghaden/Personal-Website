@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
 	</head>
 	<body class="is-preload">
 
@@ -40,15 +41,18 @@
 
 				<!-- Two -->
 					<section id="work">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/1.png" class="image fit thumb">
-									<img src="images/thumbs/1.png" alt="" />
-								</a>
-								<h3>AutoBackup</h3>
-								<p>C# dekstop application that allows you to backup source directories to a set target.</p>
-							</article>
+						<h1>Projects</h1>
+							<h3>AutoBackup <a href="https://github.com/jghaden/Auto-Backup" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></h3>
+							<div>
+								<a href="images/fulls/1.png" data-lightbox="autobackup" data-title="Initial state after starting AutoBackup"><img src="images/thumbs/1.png"></a>
+								<a href="images/fulls/2.png" data-lightbox="autobackup" data-title="Select the folder you wish to backup."></a>
+								<a href="images/fulls/3.png" data-lightbox="autobackup" data-title="Select the folder you wish to backup."></a>
+								<a href="images/fulls/4.png" data-lightbox="autobackup" data-title="Enabling the backup will start the timer."></a>
+								<a href="images/fulls/5.png" data-lightbox="autobackup" data-title="AutoBackup will prevent accidently closing."></a>
+								<a href="images/fulls/6.png" data-lightbox="autobackup" data-title="You will be notified after a backup has been completed."></a>
+								<a href="images/fulls/7.png" data-lightbox="autobackup" data-title="The next backup will start after the timer finishes once again."></a>
+							</div>
+							<p>C# dekstop application that allows you to backup source directories to a set target.</p>
 						<!--
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
@@ -148,6 +152,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/lightbox/dist/js/lightbox-plus-jquery.js"></script>
 	</body>
 </html>
