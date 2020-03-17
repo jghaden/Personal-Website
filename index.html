@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+		
 	</head>
 	<body class="is-preload">
 
@@ -95,16 +97,16 @@
 						<p></p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="contact.php">
+								<form method="POST" action="">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
-										<div class="col-12 col-12-xsmall"><input type="text" name="subject" id="subject" placeholder="Subject" required/></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" class="name" placeholder="Name" required/></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="_replyto" id="email" class="email" placeholder="Email" required/></div>
+										<div class="col-12 col-12-xsmall"><input type="text" name="subject" id="subject" class="subject" placeholder="Subject" required/></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" class="message" rows="4" required></textarea></div>
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" name="submit" id="submit-button" value="Send Message" /></li>
+									<li><input type="submit" name="submit" class="submit" value="Send Message" /></li>
 								</ul>
 							</div>
 							<div class="col-4 col-12-small">
@@ -139,9 +141,6 @@
 						<li><a href="https://www.linkedin.com/in/joshua-haden-1286ab15b/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<li><a href="#contact" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-					<ul class="copyright">
-						<li>&copy; 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
 				</div>
 			</footer>
 
@@ -152,6 +151,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/lightbox/dist/js/lightbox-plus-jquery.js"></script>
+			<script src="assets/lightbox/dist/js/lightbox.js"></script>
+			<!--<script src="contact.js"></script>-->
 	</body>
 </html>
