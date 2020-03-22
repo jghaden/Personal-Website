@@ -2824,6 +2824,7 @@ input, select, textarea {
 
 		.poptrox-popup .caption {
 			background: #fff;
+			color: rgb(50, 50, 50);
 			bottom: 0;
 			cursor: default;
 			font-size: 0.7em;
@@ -3245,4 +3246,12 @@ input, select, textarea {
 
 html {
 	scroll-behavior: smooth;
+}
+
+#cpp {
+	color: rgba(255, 4, 4, 0.8);
+}
+
+#cs {
+	color:rgba(4, 4, 255, 0.8);
 }
