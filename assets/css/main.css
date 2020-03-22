@@ -3248,10 +3248,35 @@ html {
 	scroll-behavior: smooth;
 }
 
+/*
 #cpp {
 	color: rgba(255, 4, 4, 0.8);
 }
 
 #cs {
 	color:rgba(4, 4, 255, 0.8);
+}
+*/
+
+ul.langlist li {
+	display: inline-block;
+	padding: 0 0.5em 0 0;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+ul.langlist li::before {
+	content: ".";
+	font-size: 4.5em;
+}
+
+ul.langlist li.cpp::before {
+	color: #f34b7d;
+	padding: 0px;
+}
+
+ul.langlist li.cs::before {
+	color:#178600;
 }
