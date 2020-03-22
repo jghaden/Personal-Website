@@ -3229,3 +3229,8 @@ input, select, textarea {
 			}
 
 	}
+
+.img.caption {
+	font-size: 0px; 
+	display: none;
+}
