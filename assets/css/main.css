@@ -73,12 +73,12 @@ input, select, textarea {
 }
 
 ::selection {
-	background: #FF7F3B;
+	background: rgb(75, 50, 200);
 	color: white;
 }
 
 ::moz-selection {
-	background: #FF7F3B;
+	background: rgb(75, 50, 200);
 	color: white;
 }
 
