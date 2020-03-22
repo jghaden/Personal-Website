@@ -12,7 +12,7 @@ $(document).ready(function() {
         var statusElement = $('.status')
         statusElement.empty()
 
-        if(email.length > 5 && email.includes('@') && email.includes('.')) {
+        if(email.length > 5 && email.includes('@') && email.includes('.') && (email.includes(".com") || email.includes(".org") || email.includes(".edu") || email.includes(".gov") || email.includes(".us")) || email.includes(".mil")) {
             console.log('Email is valid')
         } else {
             event.preventDefault()
