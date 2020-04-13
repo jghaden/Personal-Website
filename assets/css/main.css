@@ -3280,3 +3280,15 @@ ul.langlist li.cpp::before {
 ul.langlist li.cs::before {
 	color:#178600;
 }
+
+ul.langlist li.html::before {
+	color: #e34c26
+}
+
+ul.langlist li.css::before {
+	color: #563d7c
+}
+
+ul.langlist li.js::before {
+	color: #f1e05a
+}
