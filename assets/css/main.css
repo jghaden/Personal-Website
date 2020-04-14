@@ -2825,12 +2825,11 @@ input, select, textarea {
 		.poptrox-popup .caption {
 			background: #fff;
 			color: rgb(50, 50, 50);
-			bottom: 0;
+			bottom: 2.5%;
 			cursor: default;
-			font-size: 0.7em;
-			height: 3em;
+			font-size: 90%;
+			line-height: normal;
 			left: 0;
-			line-height: 2.8em;
 			position: absolute;
 			text-align: center;
 			width: 100%;
@@ -2899,6 +2898,7 @@ input, select, textarea {
 				left: 0;
 			}
 
+		/*
 		.poptrox-popup .closer {
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
@@ -2918,6 +2918,7 @@ input, select, textarea {
 			z-index: 2;
 			display: none;
 		}
+		*/
 
 			.poptrox-popup .closer:before {
 				-moz-osx-font-smoothing: grayscale;
