@@ -121,13 +121,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #3BB9FF;
+		color: rgb(75, 50, 200);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #3BB9FF !important;
+			color: rgb(75, 50, 200) !important;
 			text-decoration: none;
 		}
 
@@ -1851,7 +1851,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #3BB9FF;
+			border-color: rgb(75, 50, 200);
 		}
 
 	select {
@@ -1956,7 +1956,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #3BB9FF;
+			border-color: rgb(75, 50, 200);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2474,8 +2474,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #3BB9FF;
-			color: #3BB9FF !important;
+			border-color: rgb(75, 50, 200);
+			color: rgb(75, 50, 200) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2483,8 +2483,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #3BB9FF;
-			color: #3BB9FF !important;
+			border-color: rgb(75, 50, 200);
+			color: rgb(75, 50, 200) !important;
 		}
 
 		input[type="submit"].icon,
@@ -2527,8 +2527,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #3BB9FF;
-			border-color: #3BB9FF;
+			background-color: rgb(75, 50, 200);
+			border-color: rgb(75, 50, 200);
 			color: #ffffff !important;
 		}
 
@@ -2870,7 +2870,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #3BB9FF;
+				color: rgb(75, 50, 200);
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2906,7 +2906,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #3BB9FF;
+			color: rgb(75, 50, 200);
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2939,7 +2939,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px #3BB9FF;
+				border: solid 3px rgb(75, 50, 200);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
