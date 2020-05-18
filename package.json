@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jghaden/Personal-Website.git"
+  },
+  "author": "Joshua Haden",
+  "bugs": {
+    "url": "https://github.com/jghaden/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/jghaden/Personal-Website#readme",
+  "dependencies": {
+    "electron": "^8.3.0",
+    "jquery": "^3.5.1"
+  }
+}
