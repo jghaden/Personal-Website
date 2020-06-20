@@ -74,12 +74,12 @@ input, select, textarea {
 }
 
 ::selection {
-	background: rgb(75, 50, 200);
+	background: rgb(100, 75, 200) ;
 	color: white;
 }
 
 ::moz-selection {
-	background: rgb(75, 50, 200);
+	background: rgb(100, 75, 200) ;
 	color: white;
 }
 
@@ -109,7 +109,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #646464;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -131,13 +131,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: rgb(75, 50, 200);
+		color: rgb(100, 75, 200) ;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgb(75, 50, 200) !important;
+			color: rgb(100, 75, 200) !important;
 			text-decoration: none;
 		}
 
@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #646464;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1861,7 +1861,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: rgb(75, 50, 200);
+			border-color: rgb(100, 75, 200) ;
 		}
 
 	select {
@@ -1966,7 +1966,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: rgb(75, 50, 200);
+			border-color: rgb(100, 75, 200) ;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2484,8 +2484,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: rgb(75, 50, 200);
-			color: rgb(75, 50, 200) !important;
+			border-color: rgb(100, 75, 200) ;
+			color: rgb(100, 75, 200)  !important;
 		}
 
 		input[type="submit"]:active,
@@ -2493,8 +2493,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: rgb(75, 50, 200);
-			color: rgb(75, 50, 200) !important;
+			border-color: rgb(100, 75, 200) ;
+			color: rgb(100, 75, 200)  !important;
 		}
 
 		input[type="submit"].icon,
@@ -2537,8 +2537,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: rgb(75, 50, 200);
-			border-color: rgb(75, 50, 200);
+			background-color: rgb(100, 75, 200) ;
+			border-color: rgb(100, 75, 200) ;
 			color: #ffffff !important;
 		}
 
@@ -2587,7 +2587,7 @@ input, select, textarea {
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2879,7 +2879,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: rgb(75, 50, 200);
+				color: rgb(100, 75, 200) ;
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2916,7 +2916,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: rgb(75, 50, 200);
+			color: rgb(100, 75, 200) ;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2950,7 +2950,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgb(75, 50, 200);
+				border: solid 3px rgb(100, 75, 200) ;
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
