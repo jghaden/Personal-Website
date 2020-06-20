@@ -17,13 +17,13 @@
 		],
 		"Description": "An OpenGL 3D engine to render scenes with binocular vision to drive a 3D display",
 		"Language": [
-			"cpp",
-			"glsl"
+			"C++",
+			"GLSL"
 		]
     },
 	{
         "SystemName": "cpp-game-tutorial",
-        "ProjectName": "C++ Game Tutorial",
+        "ProjectName": "Game Tutorial",
 		"SourceURL": "https://github.com/jghaden/Game-Tutorial",
 		"ProjectImages": [
 			"1.png",
@@ -41,7 +41,7 @@
 		],
 		"Description": "Tutorial for making a basic framework to easily construct a game with user defined maps and rooms",
 		"Language": [
-			"cpp"
+			"C++"
 		]
     },
     {
@@ -68,7 +68,7 @@
 		],
 		"Description": "A dekstop application that allows you to backup source directories to a set target",
 		"Language": [
-			"cs"
+			"C#"
 		]
     },
 	{
@@ -87,7 +87,7 @@
 		],
 		"Description": "A program that parses a file containing a list of sentences and purposefully adds errors to generate a data set for an LSTM",
 		"Language": [
-			"cpp"
+			"C++"
 		]
 	},
 	{
@@ -104,7 +104,7 @@
 		],
 		"Description": "Conway's Game of Life implemented in C++ and executed at the command line",
 		"Language": [
-			"cpp"
+			"C++"
 		]
 	},
 	{
@@ -121,7 +121,7 @@
 		],
 		"Description": "Windows Console application to generate 2D caves using cellular automata",
 		"Language": [
-			"cpp"
+			"C++"
 		]
     }
 ]
