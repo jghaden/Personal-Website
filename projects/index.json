@@ -1,0 +1,94 @@
+[
+	{
+        "SystemName": "opengl-engine",
+        "ProjectName": "OpenGL 3D Engine",
+		"SourceURL": "https://github.com/jghaden/OpenGL-3D-Engine",
+		"ProjectImages": [
+			"1.png",
+			"2.png",
+			"3.gif",
+			"4.gif"
+		],
+		"ImageCaptions": [
+			"Vertex shader",
+			"Fragment shader",
+			"Camera rotation",
+			"Camera translation"
+		],
+		"Description": "An OpenGL 3D engine to render scenes with binocular vision to drive a 3D display",
+		"Language": [
+			"cpp",
+			"glsl"
+		]
+    },
+	{
+        "SystemName": "cpp-game-tutorial",
+        "ProjectName": "C++ Game Tutorial",
+		"SourceURL": "https://github.com/jghaden/Game-Tutorial",
+		"ProjectImages": [
+			"1.png",
+			"2.png",
+			"3.png",
+			"4.png",
+			"5.png"
+		],
+		"ImageCaptions": [
+			"ASCII island map with basic debug info",
+			"Maps and rooms dynamically link to each other",
+			"Maps and rooms dynamically link to each other",
+			"Objective count adjusts per map and room",
+			"ASCII river map with basic debug info"
+		],
+		"Description": "Tutorial for making a basic framework to easily construct a game with user defined maps and rooms",
+		"Language": [
+			"cpp"
+		]
+    },
+    {
+        "SystemName": "autobackup",
+        "ProjectName": "AutoBackup",
+		"SourceURL": "https://github.com/jghaden/Auto-Backup",
+		"ProjectImages": [
+			"1.png",
+			"2.png",
+			"3.png",
+			"4.png",
+			"5.png",
+			"6.png",
+			"7.png"
+		],
+		"ImageCaptions": [
+			"Initial state after starting AutoBackup",
+			"Select the folder you wish to backup",
+			"Select the folder you wish to backup",
+			"Enabling the backup will start the timer",
+			"AutoBackup will prevent accidental closing",
+			"You will be notified after a backup has been completed",
+			"The next backup will start after the timer finishes once again"
+		],
+		"Description": "A dekstop application that allows you to backup source directories to a set target",
+		"Language": [
+			"cs"
+		]
+    },
+    
+	{
+        "SystemName": "disfluency-generator",
+        "ProjectName": "Disfluency Generator",
+		"SourceURL": "https://github.com/jghaden/Disfluency-Generator",
+		"ProjectImages": [
+			"1.png",
+			"2.png",
+			"3.png"
+		],
+		"ImageCaptions": [
+			"Verbose output with console highlighting",
+			"\"example_in.txt\" is ready to be parsed by the program",
+			"\"example_out.txt\" is created after parsing the given input file"
+		],
+		"Description": "A program that parses a file containing a list of sentences and purposefully adds errors to generate a data set for an LSTM",
+		"Language": [
+			"cpp"
+		]
+    }
+]
