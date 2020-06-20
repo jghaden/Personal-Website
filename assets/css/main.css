@@ -3293,3 +3293,7 @@ ul.langlist li.css::before {
 ul.langlist li.js::before {
 	color: #f1e05a
 }
+
+ul.langlist li.glsl::before {
+	color: #ccc
+}
