@@ -85,7 +85,7 @@
 			"\"example_in.txt\" is ready to be parsed by the program",
 			"\"example_out.txt\" is created after parsing the given input file"
 		],
-		"Description": "A program that parses a file containing a list of sentences and purposefully adds errors to generate a data set for an LSTM",
+		"Description": "A program that parses a file containing a list of sentences and purposefully adds errors to generate a data set for a transformer network. This will later help drive a voice assistant",
 		"Language": [
 			"C++"
 		]
