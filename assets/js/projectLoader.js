@@ -16,6 +16,7 @@ function main() {
                 var sysDir = 'projects/' + sysName + '/';
                 var projName = projects[i].ProjectName;
                 var sourceURL = projects[i].SourceURL;
+                var youtubeURL = projects[i].YoutubeURL;
                 var images = projects[i].ProjectImages;
                 var captions = projects[i].ImageCaptions;
                 var description = projects[i].Description;
@@ -62,7 +63,13 @@ function main() {
 
                 $('#' + sysName).find('.projectTitle').append('<h3 class="lang">' + out + '<h3>');
 
-                $('#' + sysName).find('.lang').append('<a href="' + sourceURL + '" target="_blank" class="icon brands fa-github srcIcon" style="padding-left: 0.6em;"></a>')
+                if(sourceURL) {
+                    $('#' + sysName).find('.lang').append('<a href="' + sourceURL + '" target="_blank" class="icon brands fa-github srcIcon" style="padding-left: 0.6em;"></a>')
+                }
+
+                if(youtubeURL) {
+                    $('#' + sysName).find('.lang').append('<a href="' + youtubeURL + '" target="_blank" class="icon brands fa-youtube srcIcon" style="padding-left: 0.6em;"></a>')
+                }
             }
         }
     };

@@ -1,24 +1,19 @@
 [
 	{
-        "SystemName": "opengl-engine",
-        "ProjectName": "OpenGL 3D Engine",
-		"SourceURL": "https://github.com/jghaden/OpenGL-3D-Engine",
+        "SystemName": "research-app",
+        "ProjectName": "Research Web App",
+		"YoutubeURL": "https://www.youtube.com/watch?v=Vko1o0H_dM8",
 		"ProjectImages": [
-			"1.png",
-			"2.png",
-			"3.gif",
-			"4.gif"
+			"1.png"
 		],
 		"ImageCaptions": [
-			"Vertex shader",
-			"Fragment shader",
-			"Camera rotation",
-			"Camera translation"
+			"Project dashboard with placeholder content. Watch <strong>WIP</strong> update <a href=\"https://www.youtube.com/watch?v=Vko1o0H_dM8\">here</a>"
 		],
-		"Description": "An OpenGL 3D engine to render scenes with binocular vision to drive a 3D display",
+		"Description": "A SPA web app that helps students research for papers and projects more effectively",
 		"Language": [
-			"C++",
-			"GLSL"
+			"HTML",
+			"JS",
+			"Sass"
 		]
     },
 	{
