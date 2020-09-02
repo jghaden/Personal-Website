@@ -2,12 +2,12 @@
 	{
         "SystemName": "research-app",
         "ProjectName": "Research Web App",
-		"YoutubeURL": "https://www.youtube.com/watch?v=Vko1o0H_dM8",
+		"YoutubeURL": "https://www.youtube.com/watch?v=uRL5r6WROG4",
 		"ProjectImages": [
 			"1.png"
 		],
 		"ImageCaptions": [
-			"Project dashboard with placeholder content. Watch <strong>WIP</strong> update <a href=\"https://www.youtube.com/watch?v=Vko1o0H_dM8\">here</a>"
+			"Item details window on the project dashboard. Watch <strong>WIP</strong> update <a href=\"https://www.youtube.com/watch?v=uRL5r6WROG4\">here</a>"
 		],
 		"Description": "A SPA web app that helps students research for papers and projects more effectively",
 		"Language": [
